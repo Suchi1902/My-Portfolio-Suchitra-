@@ -5,297 +5,130 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Suchitra Behera | Software Engineer</title>
 
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
     <link rel="stylesheet" href="style.css">
-
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-
-    <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
-
 </head>
 
 <body>
 
-<header>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+    <div class="container">
 
-<nav>
+        <a class="navbar-brand fw-bold" href="#">
+            Suchitra Behera
+        </a>
 
-<h2 class="logo">Suchitra.</h2>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-<ul>
+        <div class="collapse navbar-collapse" id="menu">
 
-<li><a href="#home">Home</a></li>
-<li><a href="#about">About</a></li>
-<li><a href="#skills">Skills</a></li>
-<li><a href="#projects">Projects</a></li>
-<li><a href="#education">Education</a></li>
-<li><a href="#contact">Contact</a></li>
+            <ul class="navbar-nav ms-auto">
 
-</ul>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
 
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#projects">Projects</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#education">Education</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+
+            </ul>
+
+        </div>
+
+    </div>
 </nav>
 
-</header>
+<!-- Hero Section -->
 
-<section id="home" class="hero">
+<section class="hero">
 
-<div class="hero-text">
+<div class="container">
 
-<h3>Hello, I'm</h3>
+<div class="row align-items-center">
 
-<h1>Suchitra Behera</h1>
+<div class="col-lg-7">
 
-<h2>Software Engineer | Python & Flask Developer</h2>
+<h1>Hello, I'm</h1>
+
+<h2 class="display-4 fw-bold text-primary">
+Suchitra Behera
+</h2>
+
+<h3 class="mb-3">
+Aspiring Software Engineer
+</h3>
 
 <p>
-Passionate Software Engineer with experience in building responsive web applications using Python, Flask, HTML, CSS, JavaScript, SQL, and GitHub. I enjoy creating user-friendly solutions and continuously improving my technical skills.
+MCA graduate passionate about building modern web applications using Python, Flask, HTML, CSS, JavaScript, Bootstrap, SQLite, and GitHub. I enjoy creating responsive, user-friendly applications and continuously improving my software development skills.
 </p>
 
-<div class="buttons">
+<a href="#projects" class="btn btn-primary btn-lg me-2">
+View Projects
+</a>
 
-<a href="#projects" class="btn">View Projects</a>
-
-<a href="assets/resume/Suchitra_Behera_Resume.pdf"
-class="btn btn2"
+<a href="resume/Suchitra_Behera_Resume.pdf"
+class="btn btn-outline-dark btn-lg"
 download>
 Download Resume
 </a>
 
 </div>
 
-<div class="social">
+<div class="col-lg-5 text-center">
 
-<a href="https://github.com/Suchi1902" target="_blank">
-<i class="fab fa-github"></i>
-</a>
-
-<a href="https://www.linkedin.com/in/suchitra-behera-b12491246/" target="_blank">
-<i class="fab fa-linkedin"></i>
-</a>
+<img src="assets/profile.png"
+class="img-fluid rounded-circle shadow profile-img">
 
 </div>
 
 </div>
 
-<div class="hero-image">
+</div>
 
-<img src="assets/images/profile.png" alt="Suchitra Behera">
+</section>
+
+<!-- About -->
+
+<section id="about" class="py-5">
+
+<div class="container">
+
+<h2 class="text-center mb-4">
+About Me
+</h2>
+
+<p class="text-center">
+
+I am an MCA graduate seeking Software Engineer and Web Developer opportunities. My interests include full-stack web development, backend development using Flask, and creating responsive user interfaces with Bootstrap. I enjoy learning new technologies and building practical projects that solve real-world problems.
+
+</p>
 
 </div>
 
 </section>
-<!-- About Section -->
 
-<section id="about" class="about">
-
-    <div class="about-container">
-
-        <div class="about-image">
-
-            <img src="assets/images/profile.png" alt="Suchitra Behera">
-
-        </div>
-
-        <div class="about-content">
-
-            <h2>About Me</h2>
-
-            <p>
-                Hello! I'm <strong>Suchitra Behera</strong>, an MCA graduate with a passion for
-                software engineering and web development.
-            </p>
-
-            <p>
-                I enjoy developing scalable web applications using Python, Flask,
-                JavaScript, SQL, HTML, CSS, and Bootstrap.
-            </p>
-
-            <p>
-                I have completed hands-on projects including <strong>EduAccess</strong>, a
-                Flask-based learning platform, and <strong>LadyFashion</strong>, a responsive
-                e-commerce website. I continuously improve my programming skills
-                and enjoy solving real-world problems through clean, efficient code.
-            </p>
-
-            <div class="about-info">
-
-                <div>
-
-                    <h4>Name</h4>
-                    <span>Suchitra Behera</span>
-
-                </div>
-
-                <div>
-
-                    <h4>Email</h4>
-                    <span>suchitrabehera039@gmail.com</span>
-
-                </div>
-
-                <div>
-
-                    <h4>Location</h4>
-                    <span>Berhampur, Odisha</span>
-
-                </div>
-
-                <div>
-
-                    <h4>Role</h4>
-                    <span>Software Engineer</span>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-<!-- Skills Section -->
-
-<section id="skills" class="skills">
-
-    <h2 class="section-title">Technical Skills</h2>
-
-    <div class="skills-container">
-
-        <div class="skill-card">
-            <i class="fab fa-python"></i>
-            <h3>Python</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fas fa-code"></i>
-            <h3>Flask</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fab fa-java"></i>
-            <h3>Java</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fab fa-html5"></i>
-            <h3>HTML5</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fab fa-css3-alt"></i>
-            <h3>CSS3</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fab fa-js-square"></i>
-            <h3>JavaScript</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fas fa-database"></i>
-            <h3>SQL</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fab fa-git-alt"></i>
-            <h3>Git</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fab fa-github"></i>
-            <h3>GitHub</h3>
-        </div>
-
-        <div class="skill-card">
-            <i class="fab fa-bootstrap"></i>
-            <h3>Bootstrap</h3>
-        </div>
-
-    </div>
-
-</section>
-<!-- Projects Section -->
-
-<section id="projects" class="projects">
-
-    <h2 class="section-title">Projects</h2>
-
-    <div class="projects-container">
-
-        <!-- EduAccess -->
-
-        <div class="project-card">
-
-            <img src="assets/images/eduaccess.png" alt="EduAccess">
-
-            <div class="project-content">
-
-                <h3>EduAccess</h3>
-
-                <p>
-                    A Flask-based learning platform with secure authentication,
-                    course management, image upload, search, category filtering,
-                    profile management and password change functionality.
-                </p>
-
-                <p><strong>Tech Stack:</strong> Python, Flask, SQLite, SQLAlchemy, HTML, CSS, Bootstrap</p>
-
-                <div class="project-buttons">
-
-                    <a href="https://github.com/Suchi1902/Eduaccess" target="_blank" class="btn">
-                        GitHub
-                    </a>
-
-                    <a href="https://eduaccess-fx5m.onrender.com/" target="_blank" class="btn outline">
-                        Live Demo
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-        <!-- LadyFashion -->
-
-        <div class="project-card">
-
-            <img src="assets/images/ladyfashion.png" alt="LadyFashion">
-
-            <div class="project-content">
-
-                <h3>LadyFashion</h3>
-
-                <p>
-                    A responsive beauty and cosmetics e-commerce website with
-                    product showcase, category pages, responsive design and
-                    interactive JavaScript features.
-                </p>
-
-                <p><strong>Tech Stack:</strong> HTML, CSS, JavaScript, Bootstrap</p>
-
-                <div class="project-buttons">
-
-                    <a href="https://github.com/Suchi1902/LadyFashion-Beauty-Cosmetics-E-Commerce-Web-App" target="_blank" class="btn">
-                        GitHub
-                    </a>
-
-                    <a href="https://suchi1902.github.io/LadyFashion-Beauty-Cosmetics-E-Commerce-Web-App/" target="_blank" class="btn outline">
-                        Live Demo
-                    </a>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-</section>
-
-<script src="script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 </html>
