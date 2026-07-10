@@ -222,3 +222,18 @@ margin-top:20px;
     margin-right:10px;
     margin-top:10px;
 }
+/* Hero Section */
+
+.hero{
+    padding:80px 0;
+    background:#f8f9fa;
+}
+
+.profile-img{
+    width:320px;
+    height:320px;
+    object-fit:cover;
+    border-radius:50%;
+    border:6px solid #2563eb;
+    box-shadow:0 10px 30px rgba(0,0,0,0.2);
+}
